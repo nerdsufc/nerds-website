@@ -7,7 +7,7 @@
 }
 
 #page{
-    background-image: url(/assests/background.svg);
+    background-image: url(/assets/background.svg);
     font-family:  'Inter', sans-serif;
     color: white;
     min-height: 100vh;
@@ -73,4 +73,3 @@ main button{
     width: 250px;
     height: 48px;
 }
-
