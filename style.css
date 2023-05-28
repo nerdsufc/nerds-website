@@ -33,14 +33,24 @@ nav ul{
     gap: 95px;
     list-style: none;
 }
+ul li a:hover{
+    font-weight: bold;
+}
+.navbar button{
+    width: 120px;
+    height: 32px;
+}
+button{
+    color: #FFFFFF;
+    border: none;
+    font-weight: 900;
+    background: #FF6497;
+    border-radius: 60px;
+    }
 
 a{
     color: white;
     text-decoration: none;
-}
-
-ul li a:hover{
-    font-weight: bold;
 }
 
 main{
@@ -54,19 +64,6 @@ main{
     display: flex;
     flex-direction: column;
     gap: 50px;
-}
-
-button{
-color: #FFFFFF;
-border: none;
-font-weight: 900;
-background: #FF6497;
-border-radius: 60px;
-}
-
-.navbar button{
-    width: 120px;
-    height: 32px;
 }
 
 main button{
