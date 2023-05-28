@@ -10,7 +10,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :scroll:  Projeto
 - [Acesse o projeto finalizado, online](https://nerdsufc.github.io/nerds-website/)
-- 
 O projeto foi criado a fim de ter um material para ministrar o 1° minucurso da célular front-end. As tecnologias utilizadas foram:
 
 - Tags semânticas do HTML
