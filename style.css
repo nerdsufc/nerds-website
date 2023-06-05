@@ -63,10 +63,10 @@ main{
 }
 .details{
     
-    position:absolute;
-    height: 535px;
+    position:fixed;
+    height: 575px;
     z-index: -1;
-    width: 1345px;
+    width: 1445px;
     left: 83px;
     top: 167px;
 
