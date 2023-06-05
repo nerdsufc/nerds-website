@@ -63,11 +63,12 @@ main{
 }
 .details{
     
-    position:fixed;
-    height: 675px;
-    width: 1445px;
+    position:absolute;
+    height: 535px;
+    z-index: -1;
+    width: 1345px;
     left: 83px;
-    top: 169px;
+    top: 167px;
 
 
 
