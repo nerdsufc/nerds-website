@@ -20,6 +20,7 @@ O projeto foi criado a fim de ter um material para ministrar o 1° minucurso da 
 - Espaçamentos e alinhamentos
 - O conceito de Flexbox no CSS
 - Background linear-gradient
+- Formulários
 
 ## 🔖 Layout
 
