@@ -1,5 +1,5 @@
 # NERDS WEBSITE
-![WhatsApp Image 2023-05-28 at 14 15 01](https://github.com/nerdsufc/nerds-website/assets/37487013/5afd7595-5914-484d-8073-613c4772dbde)
+![image](https://github.com/nerdsufc/nerds-website/assets/37487013/627afe02-2ab6-4d1e-a73b-bc2fc9b508b5)
 Pagina web desenvolvida para o 1° minicurso front-end
 
 ## 🚀 Tecnologias
