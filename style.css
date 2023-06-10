@@ -98,6 +98,37 @@ main button{
     height: 4.8rem;
 
 }
+/*                           Main Sobre                              */
+
+
+.main-sobre{
+    display: flex;
+    flex-direction:column;
+    gap: 2.4rem;
+    align-items: flex-start;
+
+    width: 120rem;
+    margin: 2.6rem auto;  
+    
+    font-family: 'Inter';
+    color: #FFFFFF;
+
+}
+.main-sobre h1{
+    font-weight: bold;
+    font-size: 48px;
+    display: flex;
+    
+}
+.main-sobre h3{
+    font-weight: 600;
+    font-size: 22px;
+}
+.main-sobre p{
+    font-size: 20px;
+    line-height: 24px;
+}
+
 
 
 
