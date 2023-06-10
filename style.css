@@ -250,14 +250,3 @@ fieldset legend{
     margin-left: 5px;
     
 }
-
-.main-prisma h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 744px;
-    height: 143px;
-    border: 10px solid #FFFFFF;
-    border-radius: 34px;
-    margin: auto;
-    }
