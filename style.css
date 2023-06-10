@@ -9,45 +9,57 @@ body{
     height: 100vh;
     background:url(./assets/background.svg);
     background-repeat: no-repeat;
-    font-family:  'Inter', sans-serif;
-    color: white;
 }
-
-
+:root{
+    font-size: 62.5%;
+}
 .navbar{
-    width: 100%;
-    height: 80px;
-    background-image: linear-gradient(#10143F 35%,#07295D 80%) ;
+    
+    height: 0.8rem;
+    background: linear-gradient(93.1deg, #10133E 3.52%, #22266F 98.56%, #22266F 98.56%, #22266F 98.56%);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 3.0rem 10%;
 }
 .logo{
-    width: 185px;
-    height: 63px;
+    width: 18.5rem;
+    height: 6.3rem;
 }
 
 nav ul{
     display: flex;
     justify-content: space-between;
-    gap: 95px;
+    gap: 9.5rem;
     list-style: none;
 }
+h1, p, a,button, form,.text {
+    font-family:  'Inter', sans-serif;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+} 
+h1{
+    font-size: 4.8rem;
+}
+
 ul li a:hover{
     font-weight: bold;
 }
 .navbar button{
-    width: 120px;
-    height: 32px;
+    width: 12.0rem;
+    height: 3.2rem;
 }
 button{
     color: #FFFFFF;
     border: none;
-    font-weight: 900;
+    font-weight: 600;
     background: #FF6497;
-    border-radius: 60px;
+    border-radius: 6.0rem;
     }
+button:hover{
+    background: #d05e84;
+
+}
 
 a{
     color: white;
@@ -58,17 +70,17 @@ main{
     
     display: flex;
     align-items: center;
-    padding: 64px 10%;
-    gap: 86px;
+    padding: 6.4rem 10%;
+    gap: 8.6rem;
 }
 .details{
     
     position:fixed;
-    height: 675px;
+    height: 67.5rem;
     z-index: -1;
-    width: 1445px;
-    left: 83px;
-    top: 169px;
+    width: 144.5rem;
+    left: 8.3rem;
+    top: 16.9rem;
 
 
 
@@ -77,12 +89,12 @@ main{
 #text{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 5.0rem;
 }
 
 main button{
-    width: 250px;
-    height: 48px;
+    width: 25.0rem;
+    height: 4.8rem;
 
 }
 
@@ -93,35 +105,36 @@ main button{
 
 
 header, form {
-    width: 736px;
-    margin: 36px auto; 
+    color: #FFFFFF;
+    width: 73.6rem;
+    margin: 3.6rem auto;    
 }
 
 form{
     color: black;
-    border-radius:8px;
-    min-height: 300px;
+    border-radius:0.8rem;
     background: #FAFAFC;
-    padding: 64px;
+    padding: 6.4rem;
 }
 fieldset{
+
     border: none;
 }
 .fieldset-wrapper{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2.4rem;
 }
 
-fieldset legend{
+fieldset legend{,
     font-weight: 600;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
 
     width: 100%;
 
-    border-bottom:1px solid #E6E6F0 ;
-    padding-bottom: 16px;
+    border-bottom: 0.1rem solid #E6E6F0 ;
+    padding-bottom: 1.6rem;
 }
 
 .input-wrapper{
@@ -129,10 +142,10 @@ fieldset legend{
     flex-direction: column;
 }
 .input-wrapper label{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 1.4rem;
+    line-height: 2rem;
     color: #2e2d31;
-    margin: 8px 0;
+    margin: 0.8rem 0;
 }
 .input-wrapper input,
 .input-wrapper textarea,
@@ -140,19 +153,19 @@ fieldset legend{
 {
     background: #FAFAFC;
 
-    border-radius: 8px;
-    border: 1px solid black;
+    border-radius: 0.8rem;
+    border: 0.1rem solid black;
 
-    padding: 0 24px;
-    height: 56px;
+    padding: 0 2.4rem;
+    height: 5.6rem;
 
     
     color: #3b3a3e;
     
 }
 .input-wrapper textarea{
-    padding: 16px 24px;
-    height: 168px;
+    padding: 1.6rem 2.4rem;
+    height: 16.8rem;
 
 }
 
