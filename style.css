@@ -1,101 +1,274 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#page {
-    background-image: url(./assets/background.svg);
-    font-family: 'Inter', sans-serif;
-    color: white;
-    min-height: 100vh;
+body {
+  height: 100vh;
+  background: url(./assets/background.svg) no-repeat;
+  background-size: auto;
+}
+
+:root {
+  font-size: 62.5%;
 }
 
 .navbar {
-    width: 100%;
-    height: 5rem;
-    background-image: linear-gradient(#10143F 35%, #07295D 80%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+  height: 0.8rem;
+  background: linear-gradient(93.1deg, #10133E 3.52%, #22266F 98.56%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.0rem 10%;
 }
 
 .logo {
-    width: 185px;
-    height: 63px;
+  width: 18.5rem;
+  height: 6.3rem;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 95px;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 9.5rem;
+  list-style: none;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
+h1,
+p,
+a,
+button,
+form,
+.text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 4.8rem;
 }
 
 ul li a:hover {
-    font-weight: bold;
-}
-
-main {
-    display: flex;
-    align-items: center;
-    padding: 64px 10%;
-    gap: 86px;
-}
-
-#text {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-button {
-    color: #FFFFFF;
-    border: none;
-    font-weight: 900;
-    background: #FF6497;
-    border-radius: 60px;
+  font-weight: bold;
 }
 
 .navbar button {
-    width: 120px;
-    height: 32px;
+  width: 12.0rem;
+  height: 3.2rem;
+}
+
+button {
+  color: #FFFFFF;
+  border: none;
+  font-weight: 600;
+  background: #FF6497;
+  border-radius: 6.0rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d05e84;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  padding: 6.4rem 10%;
+  gap: 8.6rem;
+}
+
+.details {
+  position: fixed;
+  height: 67.5rem;
+  z-index: -1;
+  width: 144.5rem;
+  left: 8.3rem;
+  top: 16.9rem;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  gap: 5.0rem;
 }
 
 main button {
-    width: 250px;
-    height: 48px;
+  width: 25.0rem;
+  height: 4.8rem;
+}
+
+/* Main Sobre */
+
+.main-sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: flex-start;
+  width: 120rem;
+  margin: 2.6rem auto;
+  font-family: 'Inter';
+  color: #FFFFFF;
+}
+
+.main-sobre h1 {
+  font-weight: bold;
+  font-size: 4.8rem;
+}
+
+.main-sobre h3 {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.main-sobre p {
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+}
+
+/* Estilos da página de contato */
+
+header,
+form {
+  color: #FFFFFF;
+  width: 73.6rem;
+  margin: 3.6rem auto;
+}
+
+form {
+  color: black;
+  border-radius: 0.8rem;
+  background: #FAFAFC;
+  padding: 6.4rem;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+fieldset legend {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  width: 100%;
+  border-bottom: 0.1rem solid #E6E6F0;
+  padding-bottom: 1.6rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #2e2d31;
+  margin: 0.8rem 0;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+  background: #FAFAFC;
+  border-radius: 0.8rem;
+  border: 0.1rem solid black;
+  padding: 0 2.4rem;
+  height: 5.6rem;
+  color: #3b3a3e;
+}
+
+.input-wrapper textarea {
+  padding: 1.6rem 2.4rem;
+  height: 16.8rem;
+}
+
+.input-wrapper select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1_54)'%3E%3Cpath d='M8 10L12 14L16 10' stroke='%239C98A6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_54'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: right 1.0rem center;
+}
+
+.buttom {
+  display: flex;
+  align-self: flex-end;
+}
+
+.buttom input {
+  color: #FFFFFF;
+  border: none;
+  width: 12.0rem;
+  height: 3.2rem;
+  font-weight: 600;
+  background: #FF6497;
+  border-radius: 6.0rem;
+  cursor: pointer;
+}
+
+.buttom input:hover {
+  background: #d05e84;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #1F2579;
+  padding: 0.8rem;
+  margin-top: 0.8rem;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-menu li a[href="#projects"]::after {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  background-image: url("data:image/svg+xml,%3Csvg width='13' height='8' viewBox='0 0 13 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.31098 7.81201L0.408177 0.0864472L12.2138 0.0864472L6.31098 7.81201Z' fill='white'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-left: 5px;
 }
 
 @media (max-width: 600px) {
-    .navbar {
-        max-width: 100vw;
-        padding: 1rem;
-        justify-content: center;
-    }
+  .navbar {
+    max-width: 100vw;
+    padding: 1rem;
+    justify-content: center;
+  }
 
-    .navbar button {
-        display: none;
-    }
+  .navbar button {
+    display: none;
+  }
 
-    .nav-menu {
-        display: none;
-    }
+  .nav-menu {
+    display: none;
+  }
 
-    .hero-image {
-        display: none;
-    }
+  .hero-image {
+    display: none;
+  }
 
-    .logo {
-        width: 7rem;
-        height: auto;
-    }
+  .logo {
+    width: 7rem;
+    height: auto;
+  }
 }
