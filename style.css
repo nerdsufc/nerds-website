@@ -8,27 +8,15 @@
 
 body {
   height: 100vh;
-  background: #10133E;
+  background: url(./assets/background.svg) no-repeat;
   background-size: auto;
 }
 
-.waves {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 100vw;
-
-  z-index: -10;
-}
-
 :root {
-  font-size: 16px;
+  font-size: 62.5%;
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100vw;
   height: 0.8rem;
   background: linear-gradient(93.1deg, #10133E 3.52%, #22266F 98.56%);
   display: flex;
@@ -38,15 +26,14 @@ body {
 }
 
 .logo {
-  width: 10rem;
-  height: auto;
-  cursor: pointer;
+  width: 18.5rem;
+  height: 6.3rem;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
-  gap: 7rem;
+  gap: 9.5rem;
   list-style: none;
 }
 
@@ -57,12 +44,12 @@ button,
 form,
 .text {
   font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   color: #FFFFFF;
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 4.8rem;
 }
 
 ul li a:hover {
@@ -70,9 +57,8 @@ ul li a:hover {
 }
 
 .navbar button {
+  width: 12.0rem;
   height: 3.2rem;
-  width: fit-content;
-  padding: 1rem;
 }
 
 button {
@@ -82,14 +68,6 @@ button {
   background: #FF6497;
   border-radius: 6.0rem;
   cursor: pointer;
-  transition: all 0.6s ease;
-}
-
-.btn-contact {
-  border: 1px solid red;
-  width: fit-content;
-  height: max-content;
-  padding: 1.5rem;
 }
 
 button:hover {
@@ -109,9 +87,12 @@ main {
 }
 
 .details {
-  z-index: -1;
   position: fixed;
-
+  height: 67.5rem;
+  z-index: -1;
+  width: 144.5rem;
+  left: 8.3rem;
+  top: 16.9rem;
 }
 
 #text {
@@ -265,30 +246,4 @@ fieldset legend {
   background-repeat: no-repeat;
   background-position: right;
   margin-left: 5px;
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    max-width: 100vw;
-    padding: 1rem;
-    justify-content: center;
-  }
-
-  .navbar button {
-    display: none;
-  }
-
-  .nav-menu {
-    display: none;
-  }
-
-  .hero-image {
-    display: none;
-  }
-
-  .logo {
-    width: 7rem;
-    height: auto;
-    cursor: pointer;
-  }
 }
