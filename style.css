@@ -211,9 +211,7 @@ section {
 h1,
 p,
 a,
-button,
-form,
-.text {
+button {
   font-size: 1.1rem;
   color: #FFFFFF;
 }
@@ -270,102 +268,13 @@ main button {
   height: 4.8rem;
 }
 
-/* Estilos da página de contato */
-
-header,
-form {
-  color: #FFFFFF;
-  width: 73.6rem;
-  margin: 3.6rem auto;
-}
-
-form {
-  color: black;
-  border-radius: 0.8rem;
-  background: #FAFAFC;
-  padding: 6.4rem;
-}
-
-fieldset {
-  border: none;
-}
-
-.fieldset-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
-}
-
-fieldset legend {
-  font-weight: 600;
-  font-size: 2.4rem;
-  line-height: 3.4rem;
-  width: 100%;
-  border-bottom: 0.1rem solid #E6E6F0;
-  padding-bottom: 1.6rem;
-}
-
-.input-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.input-wrapper label {
-  font-size: 1.4rem;
-  line-height: 2rem;
-  color: #2e2d31;
-  margin: 0.8rem 0;
-}
-
-.input-wrapper input,
-.input-wrapper textarea,
-.input-wrapper select {
-  background: #FAFAFC;
-  border-radius: 0.8rem;
-  border: 0.1rem solid black;
-  padding: 0 2.4rem;
-  height: 5.6rem;
-  color: #3b3a3e;
-}
-
-.input-wrapper textarea {
-  padding: 1.6rem 2.4rem;
-  height: 16.8rem;
-}
-
-.input-wrapper select {
-  appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1_54)'%3E%3Cpath d='M8 10L12 14L16 10' stroke='%239C98A6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_54'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/svg%3E%0A");
-  background-repeat: no-repeat;
-  background-position: right 1.0rem center;
-}
-
-.buttom {
-  display: flex;
-  align-self: flex-end;
-}
-
-.buttom input {
-  color: #FFFFFF;
-  border: none;
-  width: 12.0rem;
-  height: 3.2rem;
-  font-weight: 600;
-  background: #FF6497;
-  border-radius: 6.0rem;
-  cursor: pointer;
-}
-
-.buttom input:hover {
-  background: #d05e84;
-}
-
 .dropdown-menu {
   display: none;
   position: absolute;
   background-color: #1F2579;
   padding: 0.8rem;
   margin-top: 0.8rem;
+  list-style: none;
   border-radius: 5px;
 }
 
@@ -384,28 +293,11 @@ fieldset legend {
   margin-left: 5px;
 }
 
-@media (max-width: 600px) {
-  .navbar {
-    max-width: 100vw;
-    padding: 1rem;
-    justify-content: center;
-  }
-
-  .navbar button {
-    display: none;
-  }
-
-  .nav-menu {
-    display: none;
-  }
-
-  .hero-image {
-    display: none;
-  }
-
-  .logo {
-    width: 7rem;
-    height: auto;
-    cursor: pointer;
-  }
+footer{
+  text-align: center;
+  padding-top: 10px;
+  position: relative;
+  bottom: 0;
+  height: 5vh;
+  color: #FFFFFF;
 }
