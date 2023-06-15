@@ -241,7 +241,7 @@ button {
 }
 
 .btn-contact {
-  border: 1px solid red;
+  border: none;
   width: fit-content;
   height: max-content;
   padding: 1.5rem;
@@ -300,4 +300,13 @@ footer{
   bottom: 0;
   height: 5vh;
   color: #FFFFFF;
+}
+.icon{
+  height: 30px;
+  width: 30px;
+}
+.icon-contact{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
 }
